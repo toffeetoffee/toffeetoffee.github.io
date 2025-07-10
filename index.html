@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midnight Hollow Press - New Releases</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Holloween Book Sales!</h1>
+        <p>Explore Classic Horror Literature!</p>
+        <button id="flipAllBtn" class="flip-all-btn">
+            <i class="fas fa-magic"></i> Show Details
+        </button>
+    </div>
+
+    <div class="big-card">
+        <input type="checkbox" id="bigCard" class="big-more" aria-hidden="true">
+        <div class="big-content">
+            <div class="big-front">
+                <div class="wrapper">
+                    <div class="card">
+                        <input type="checkbox" id="card1" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('assets/frankenstein.png')">
+                                <div class="inner">
+                                    <div></div>
+                                    <h2>Frankenstein</h2>
+                                    <div class="author">by Mary Shelly</div>
+                                    <div class="genre">1818</div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <div class="book-info">
+                                        <div class="info-item">
+                                            <img src="assets/frankenstein.png" alt="Book Cover"
+                                                class="cover-thumbnail">Frankenstein
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-star"></i>
+                                            <div class="number">4.6</div>
+                                            <div class="label">Rating</div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-clock"></i>
+                                            <div class="number">4h</div>
+                                            <div class="label">Read Time</div>
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        <p>Frankenstein is an old classic about a scientist who creates a monster and
+                                            the awful events he unintentionally causes. Victor Frankenstein is a
+                                            hard-working young man at university who discovers how to give life to an
+                                            inanimate body and uses his knowledge to create a man-monster. He believes
+                                            his discovery will lead to further scientific advances but when he succeeds
+                                            in bringing his creation to life he is filled with loathing.</p>
+                                        <div class="reference">-The Guardian</div>
+                                    </div>
+                                    <div class="publication-info">
+                                        <div class="publisher">Simon & Schuster</div>
+                                        <div class="price">$8.99</div>
+                                    </div>
+                                    <!-- <label for="card1" class="button return" aria-hidden="true">
+                                        <i class="fas fa-arrow-left"></i>
+                                    </label> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <input type="checkbox" id="card2" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('assets/dracula.png')">
+                                <div class="inner">
+                                    <div></div>
+                                    <h2>Dracula</h2>
+                                    <div class="author">by Bram Stoker</div>
+                                    <div class="genre">1897</div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <div class="book-info">
+                                        <div class="info-item">
+                                            <img src="assets/dracula.png" alt="Book Cover"
+                                                class="cover-thumbnail">Dracula
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-star"></i>
+                                            <div class="number">4.0</div>
+                                            <div class="label">Rating</div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-clock"></i>
+                                            <div class="number">9h</div>
+                                            <div class="label">Read Time</div>
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        <p>When Jonathan Harker visits Transylvania to help Count Dracula with the
+                                            purchase of a London house, he makes a series of horrific discoveries about
+                                            his client. Soon afterwards, various bizarre incidents unfold in England: an
+                                            apparently unmanned ship is wrecked off the coast of Whitby; a young woman
+                                            discovers strange puncture marks on her neck; and the inmate of a lunatic
+                                            asylum raves about the 'Master' and his imminent arrival.</p>
+
+                                        <p>In Dracula, Bram Stoker created one of the great masterpieces of the horror
+                                            genre, brilliantly evoking a nightmare world of vampires and vampire hunters
+                                            and also illuminating the dark corners of Victorian sexuality and desire.
+                                            keep you guessing until the final chapter.</p>
+                                        <div class="reference">-Goodreads</div>
+                                    </div>
+                                    <div class="publication-info">
+                                        <div class="publisher">Simon & Schuster</div>
+                                        <div class="price">$8.99</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <input type="checkbox" id="card3" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('assets/phantom.png')">
+                                <div class="inner">
+                                    <div></div>
+                                    <h2>The Phantom of the Opera</h2>
+                                    <div class="author">by Gaston Leroux</div>
+                                    <div class="genre">1909</div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <div class="book-info">
+                                        <div class="info-item">
+                                            <img src="assets/phantom.png" alt="Book Cover" class="cover-thumbnail">The
+                                            Phantom of the Opera
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-star"></i>
+                                            <div class="number">4.8</div>
+                                            <div class="label">Rating</div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-clock"></i>
+                                            <div class="number">4.5h</div>
+                                            <div class="label">Read Time</div>
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        <p>First published in French as a serial in 1909, The Phantom of the Opera is a
+                                            riveting story that revolves around the young, Swedish Christine Daaé. Her
+                                            father, a famous musician, dies, and she is raised in the Paris Opera House
+                                            with his dying promise of a protective angel of music to guide her. After a
+                                            time at the opera house, she begins hearing a voice, who eventually teaches
+                                            her how to sing beautifully. All goes well until Christine’s childhood
+                                            friend Raoul comes to visit his parents, who are patrons of the opera, and
+                                            he sees Christine when she begins successfully singing on the stage. The
+                                            voice, who is the deformed, murderous ‘ghost’ of the opera house named Erik,
+                                            however, grows violent in his terrible jealousy, until Christine suddenly
+                                            disappears. The phantom is in love, but it can only spell disaster.</p>
+
+                                        <p>Leroux’s work, with characters ranging from the spoiled prima donna Carlotta
+                                            to the mysterious Persian from Erik’s past, has been immortalized by
+                                            memorable adaptations. Despite this, it remains a remarkable piece of Gothic
+                                            horror literature in and of itself, deeper and darker than any version that
+                                            follows.</p>
+                                        <div class="reference">-mybookjoy</div>
+                                    </div>
+                                    <div class="publication-info">
+                                        <div class="publisher">Simon & Schuste</div>
+                                        <div class="price">$14.99</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="big-back">
+                <div class="wrapper">
+                    <div class="card">
+                        <input type="checkbox" id="card4" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('assets/king_in_yellow.png')">
+                                <div class="inner">
+                                    <div></div>
+                                    <h2>The King in Yellow</h2>
+                                    <div class="author">by Robert W. Chambers</div>
+                                    <div class="genre">1818</div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <div class="book-info">
+                                        <div class="info-item">
+                                            <img src="assets/king_in_yellow.png" alt="Book Cover"
+                                                class="cover-thumbnail">The King in Yellow
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-star"></i>
+                                            <div class="number">4.3</div>
+                                            <div class="label">Rating</div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-clock"></i>
+                                            <div class="number">4h</div>
+                                            <div class="label">Read Time</div>
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        <p>For readers who delight in the darker corners of the human experience, The
+                                            King in Yellow by Robert W. Chambers is a masterful collection of short
+                                            stories that will transport you to a realm of eerie mystery, madness, and
+                                            supernatural horror, where the boundaries between reality and the unknown
+                                            are blurred.</p>
+
+                                        <p>The book is named after a play with the same title which recurs as a motif
+                                            through some of the stories. The first half of the book features highly
+                                            esteemed weird stories, and the book has been described by critics such as
+                                            E. F. Bleiler, S. T. Joshi and T. E. D. Klein as a classic in the field of
+                                            the supernatural. There are ten stories, the first four of which ("The
+                                            Repairer of Reputations", "The Mask", "In the Court of the Dragon", and "The
+                                            Yellow Sign") mention The King in Yellow, a forbidden play which induces
+                                            despair or madness in those who read it. "The Yellow Sign" inspired a film
+                                            of the same name released in 2001.</p>
+                                        <div class="reference">-Goodreads</div>
+                                    </div>
+                                    <div class="publication-info">
+                                        <div class="publisher">Simon & Schuste</div>
+                                        <div class="price">$0.99</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <input type="checkbox" id="card5" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('assets/lovecraft.png')">
+                                <div class="inner">
+                                    <div></div>
+                                    <h2>The Complete Fiction of H.P. Lovecraft</h2>
+                                    <div class="author">by H.P. Lovecraft</div>
+                                    <div class="genre">1818</div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <div class="book-info">
+                                        <div class="info-item">
+                                            <img src="assets/lovecraft.png" alt="Book Cover" class="cover-thumbnail">The
+                                            Complete Fiction of H.P. Lovecraft
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-star"></i>
+                                            <div class="number">4.3</div>
+                                            <div class="label">Rating</div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-clock"></i>
+                                            <div class="number">26h</div>
+                                            <div class="label">Read Time</div>
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        <p>The Complete Fiction of H.P. Lovecraft collects the author's novel, four
+                                            novellas, and fifty-three short stories. Written between the years 1917 and
+                                            1935, this collection features Lovecraft's trademark fantastical creatures
+                                            and supernatural thrills, as well as many horrific and cautionary
+                                            science-fiction themes, that have influenced some of today's writers and
+                                            filmmakers, including Stephen King, Alan Moore, F. Paul Wilson, Guillermo
+                                            del Toro, and Neil Gaiman. Included in this volume are The Case of Charles
+                                            Dexter Ward, "The Call of Cthulhu," "The Dream-Quest of Unknown Kadath," "At
+                                            the Mountains of Madness," "The Shadow Over Innsmouth," "The Color Out of
+                                            Space," "The Dunwich Horror," and many more hair-raising tales.</p>
+                                        <div class="reference">-Goodreads</div>
+                                    </div>
+                                    <div class="publication-info">
+                                        <div class="publisher">Race Point Publishing</div>
+                                        <div class="price">$62.77</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <input type="checkbox" id="card6" class="more" aria-hidden="true">
+                        <div class="content">
+                            <div class="front" style="background-image: url('assets/house_of_leaves.png')">
+                                <div class="inner">
+                                    <div></div>
+                                    <h2>House of Leaves</h2>
+                                    <div class="author">by Mark Z. Danielewski</div>
+                                    <div class="genre">2000</div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="inner">
+                                    <div class="book-info">
+                                        <div class="info-item">
+                                            <img src="assets/house_of_leaves.png" alt="Book Cover"
+                                                class="cover-thumbnail">House of Leaves
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-star"></i>
+                                            <div class="number">4.1</div>
+                                            <div class="label">Rating</div>
+                                        </div>
+                                        <div class="info-item">
+                                            <i class="fas fa-clock"></i>
+                                            <div class="number">1.5h</div>
+                                            <div class="label">Read Time</div>
+                                        </div>
+                                    </div>
+                                    <div class="description">
+                                        <p>Texts within texts, preceded by intriguing introductory material and followed
+                                            by 150 pages of appendices and related "documents" and photographs, tell the
+                                            story of a mysterious old house in a Virginia suburb inhabited by esteemed
+                                            photographer-filmmaker Will Navidson, his companion Karen Green (an
+                                            ex-fashion model), and their young children Daisy and Chad. The record of
+                                            their experiences therein is preserved in Will's film The Davidson Record -
+                                            which is the subject of an unpublished manuscript left behind by a (possibly
+                                            insane) old man, Frank Zampano - which falls into the possession of Johnny
+                                            Truant, a drifter who has survived an abusive childhood and the perverse
+                                            possessiveness of his mad mother (who is institutionalized). As Johnny reads
+                                            Zampano's manuscript, he adds his own (autobiographical) annotations to the
+                                            scholarly ones that already adorn and clutter the text (a trick perhaps
+                                            influenced by David Foster Wallace's Infinite Jest) - and begins
+                                            experiencing panic attacks and episodes of disorientation that echo with
+                                            ominous precision the content of Davidson's film (their house's interior
+                                            proves, "impossibly," to be larger than its exterior; previously unnoticed
+                                            doors and corridors extend inward inexplicably, and swallow up or traumatize
+                                            all who dare to "explore" their recesses). Danielewski skillfully
+                                            manipulates the reader's expectations and fears, employing ingeniously
+                                            skewed typography, and throwing out hints that the house's apparent
+                                            malevolence may be related to the history of the Jamestown colony, or to
+                                            Davidson's Pulitzer Prize-winning photograph of a dying Vietnamese child
+                                            stalked by a waiting vulture. Or, as "some critics [have suggested,] the
+                                            house's mutations reflect the psychology of anyone who enters it."
+                                            The story's very ambiguity steadily feeds its mysteriousness and power, and
+                                            Danielewski's mastery of postmodernist and cinema-derived rhetoric up the
+                                            ante continuously, and stunningly. One of the most impressive excursions
+                                            into the supernatural in many a year. </p>
+                                        <div class="reference">-kirkusreviews</div>
+                                    </div>
+                                    <div class="publication-info">
+                                        <div class="publisher">Pantheon</div>
+                                        <div class="price">$55.00</div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="big-flip-section">
+        <label for="bigCard" class="big-flip-btn">
+            <i class="fas fa-chevron-down"></i> Discover More
+        </label>
+    </div>
+
+    <script>
+        document.querySelectorAll('.front').forEach(front => {
+            front.addEventListener('click', function () {
+                const card = this.closest('.card');
+                const checkbox = card.querySelector('.more');
+                checkbox.checked = !checkbox.checked;
+            });
+        });
+        document.querySelectorAll('.back').forEach(front => {
+            front.addEventListener('click', function () {
+                const card = this.closest('.card');
+                const checkbox = card.querySelector('.more');
+                checkbox.checked = !checkbox.checked;
+            });
+        });
+
+        document.getElementById('flipAllBtn').addEventListener('click', function () {
+            const checkboxes = document.querySelectorAll('.more');
+            const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = !allChecked;
+            });
+
+            const btn = document.getElementById('flipAllBtn');
+            if (allChecked) {
+                btn.innerHTML = '<i class="fas fa-magic"></i> Show Details';
+            } else {
+                btn.innerHTML = '<i class="fas fa-eye-slash"></i> Hide Details';
+            }
+        });
+        document.getElementById('bigCard').addEventListener('change', function () {
+            document.getElementById('bigCard').addEventListener('change', function () {
+                document.querySelectorAll('.more').forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+                const flipAllBtn = document.getElementById('flipAllBtn');
+                flipAllBtn.innerHTML = '<i class="fas fa-magic"></i> Show Details';
+            });
+        });
+    </script>
+</body>
+
+</html>
