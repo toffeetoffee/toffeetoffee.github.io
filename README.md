@@ -1,4 +1,5 @@
 # toffeetoffee.github.io
-# Parallax Project showcase
+
+Parallax Project showcase
 
 Jellyfish Exhibition.
